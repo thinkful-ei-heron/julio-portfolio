@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
   }
-  /*font-family: 'Open Sans', sans-serif;*/
   body {
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
@@ -57,15 +56,11 @@
   }
   p, .bio {
     color: white;
-    width: 700px;
     margin-left: auto;
     margin-right: auto;
   }
   .tldr {
     color: black;
-  }
-  .theOffice {
-    width: 300px;
   }
   a, a:hover, a:active, a:visited {
      color: white;
@@ -80,3 +75,32 @@
     padding-left: 30px;
     padding-right: 30px;
   }
+  @media screen and (min-width: 320px) {
+    .menu {
+      display: none;
+    }
+    nav, footer {
+      width: 100%;
+    }
+    h1 {
+      padding-top: 40px;
+    }
+    #hamburger {
+      float: right;
+      padding-right: 20px;
+      border: 1px orange solid;
+    }
+    .icon {
+      padding: 0;
+      padding-left: 10px;
+      padding-right: 10px;
+      width: 80px;
+    }
+    .image {
+      width: 200px;
+    }
+    .bio {
+      padding: 10px;
+    }
+  }
+  

@@ -1,20 +1,11 @@
 'use strict';
-function navBar() {
-    $('li').on('click','#home',e => {
-    
-    })
-    $('li').on('click','#bio',e => {
-
-    })
-    $('li').on('click','#projects',e => {
-
-    })
-    $('li').on('click','#skills',e => {
-
-    })
-    $('li').on('click','#contact',e => {
-
-    })
+function hamburger() {
+    let x = document.getElementsByClassName('menu');
+    console.log(x);
+    if(x.style.display ==='none'){
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
 }
-
-$(navBar);
+$(hamburger);
