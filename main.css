@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+  }
+  /*font-family: 'Open Sans', sans-serif;*/
+  body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #444;
+    text-align: center;
+    line-height: 1.5;
+  }
+  nav,
+  footer {
+    color: white;
+    padding: 1% 0;
+    background-color: black;
+  }
+  ul {
+    list-style-type: none;
+  }
+  li {
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+    padding: 5px;
+  }
+  li:hover {
+    cursor: pointer;
+  }
+  .left {
+      float: left;
+  }
+  .right {
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
+  header {
+    padding: 12% 0;
+  }
+  section {
+    min-height: 200px;
+    padding: 6% 0;
+    background-color: #4A5869;
+  }
+  section:nth-child(even) {
+    background-color: #8AA4C2;
+  }
+  h2, h3 {
+    color: white;
+  }
+  p, .bio {
+    color: white;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .tldr {
+    color: black;
+  }
+  .theOffice {
+    width: 300px;
+  }
+  a, a:hover, a:active, a:visited {
+     color: white;
+     text-decoration: none; 
+    }
+  a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  .icon {
+    width: 125px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
