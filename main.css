@@ -51,7 +51,7 @@
   section:nth-child(even) {
     background-color: #8AA4C2;
   }
-  h2, h3 {
+  h2 {
     color: white;
   }
   p, .bio {
@@ -119,6 +119,51 @@
     }
     .menu {
       display: inline;
+    }
+    .list-container {
+      clear: none;
+      float: right;
+      padding-right: 20px;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    h2 {
+      font-size: 60px;
+    }
+    p {
+      margin-left: 60px;
+      margin-right: 60px;
+      font-size: 30px;
+    }
+    .bio {
+      padding-left: 70px;
+      padding-right: 70px;
+    }
+    .image {
+      width: 350px;
+    }
+    li {
+      font-size: 25px;
+    }
+    .icon {
+      width: 150px;
+      margin-left: 60px;
+      margin-right: 60px;
+    }
+    .phone {
+      display: none;
+    }
+  }
+  @media screen and (min-width:1600px) {
+    h1 {
+      font-size: 150px;
+    }
+    p, li{
+      font-size: 50px;
+    }
+    .phone {
+      display: none;
     }
   }
   

@@ -10,15 +10,13 @@ function hamburger() {
     };
 }
 function checkScreenWidth() {
-    if($(window).width() >= 1000) {
+    if($(window).innerWidth() >= 1000) {
         disableHamburger();
     }
 }
-
 function disableHamburger() {
     let listContainer = $('.list-container')[0];
-    console.log(listContainer);
-    listContainer.removeAttr(onclick);
+    listContainer.removeAttribute('onclick');
 }
 
 $(checkScreenWidth);
